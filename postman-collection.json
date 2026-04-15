@@ -1,0 +1,48 @@
+{
+  "info": {
+    "_postman_id": "6eb3b7c1-7772-4c6c-a0a4-a653ff9fac79",
+    "name": "Cache Distribué",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "45069322",
+    "_collection_link": "https://go.postman.co/collection/45069322-6eb3b7c1-7772-4c6c-a0a4-a653ff9fac79?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "GET Produit",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "DELETE Cache",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/cache/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "cache",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET Stats",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
